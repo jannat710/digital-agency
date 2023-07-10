@@ -137,12 +137,16 @@
     border-radius: 10px;
     margin-top: -60px;
     align-items: center;
+    margin-bottom: 6%;
 }
 
 .blog-container {
     width: 80%;
     margin: auto;
-    background-color: gray;
+    background-image: url('./asset/image/blog-2.jpg');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 10px;
 }
 
@@ -158,6 +162,7 @@
     /* background-color: blue; */
     box-shadow: 4px 8px 4px gray;
     border-radius: 5px;
+    background-color: azure;
 
 }
 
@@ -169,6 +174,7 @@
 .card-title {
     margin-top: 10px;
     margin-bottom: 10px;
+   
 }
 
 .cards {
@@ -178,6 +184,7 @@
 }
 
 .footer-container {
+    margin-top: 6%;
     height: 500px;
     background-image: url("./asset/image/footer-bg.png"), linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
     background-blend-mode: overlay;
